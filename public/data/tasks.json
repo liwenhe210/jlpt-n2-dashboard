@@ -1,0 +1,3786 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-08-25",
+  "plan_style": "阶段→模块→任务→检查点；没有日期或每日配额。",
+  "sources": {
+    "try_n4": "sources/TRY！新日语能力考试N4语法必备 (日本ABK（财团法人亚洲学生文化协会）著 etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "try_n3": "sources/TRY新日语能力考试N3语法必备 (【日】ABK) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "n2_grammar": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "n2_reading": "sources/新完全掌握日语能力考试N2级阅读 (Pdg2Pic, （日）清水知子，中村则子等著；北京未名天日语学校教研组翻译) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "n2_listening": "sources/新完全掌握日语能力考试N2级 听力 (（日）中村香织等编著, Zhong cun xiang zhi etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf"
+  },
+  "status_values": [
+    "not_started",
+    "in_progress",
+    "blocked",
+    "completed",
+    "skipped"
+  ],
+  "tasks": [
+    {
+      "id": "JLPT-001",
+      "phase": "P0-地基检查",
+      "track": "语法",
+      "module": "N5 最小地基",
+      "title": "N5 形态与句型诊断",
+      "source": "sources/TRY！新日语能力考试N4语法必备 (日本ABK（财团法人亚洲学生文化协会）著 etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "助词；名词/形容词/动词基本变化；辞书/ます/て/た/ない形；普通体；基础原因、条件、比较与修饰。",
+      "prerequisite": [],
+      "mode": "checkpoint",
+      "steps": [
+        "在不看笔记的前提下完成题组或模拟题。",
+        "核对答案并按题型记录错因。",
+        "把错误关联回需要复习的任务；未达标则重新打开该任务。"
+      ],
+      "completion_rule": "每一项标记为“已稳固 / 需补”；需补项在开始 TRY! N4 前完成针对性补习。",
+      "status": "not_started",
+      "source_page": null,
+      "weight": 2
+    },
+    {
+      "id": "JLPT-002",
+      "phase": "P1-N4 骨架",
+      "track": "语法",
+      "module": "TRY! N4｜第1课段",
+      "title": "あいさつの言葉（寒暄用语）",
+      "source": "sources/TRY！新日语能力考试N4语法必备 (日本ABK（财团法人亚洲学生文化协会）著 etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本课段的范文、全部语法项目、书内练习与相关小结题。",
+      "prerequisite": [
+        "JLPT-001"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 24,
+        "printed": 16
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-003",
+      "phase": "P1-N4 骨架",
+      "track": "语法",
+      "module": "TRY! N4｜第2-1课段",
+      "title": "おかし作り（1）",
+      "source": "sources/TRY！新日语能力考试N4语法必备 (日本ABK（财团法人亚洲学生文化协会）著 etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本课段的范文、全部语法项目、书内练习与相关小结题。",
+      "prerequisite": [
+        "JLPT-002"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 26,
+        "printed": 18
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-004",
+      "phase": "P1-N4 骨架",
+      "track": "语法",
+      "module": "TRY! N4｜第2-2课段",
+      "title": "おかし作り（2）",
+      "source": "sources/TRY！新日语能力考试N4语法必备 (日本ABK（财团法人亚洲学生文化协会）著 etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本课段的范文、全部语法项目、书内练习与相关小结题。",
+      "prerequisite": [
+        "JLPT-003"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 34,
+        "printed": 26
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-005",
+      "phase": "P1-N4 骨架",
+      "track": "语法",
+      "module": "TRY! N4｜第3-1课段",
+      "title": "けっこん式（1）",
+      "source": "sources/TRY！新日语能力考试N4语法必备 (日本ABK（财团法人亚洲学生文化协会）著 etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本课段的范文、全部语法项目、书内练习与相关小结题。",
+      "prerequisite": [
+        "JLPT-004"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 44,
+        "printed": 36
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-006",
+      "phase": "P1-N4 骨架",
+      "track": "语法",
+      "module": "TRY! N4｜第3-2课段",
+      "title": "けっこん式（2）",
+      "source": "sources/TRY！新日语能力考试N4语法必备 (日本ABK（财团法人亚洲学生文化协会）著 etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本课段的范文、全部语法项目、书内练习与相关小结题。",
+      "prerequisite": [
+        "JLPT-005"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 50,
+        "printed": 42
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-007",
+      "phase": "P1-N4 骨架",
+      "track": "语法",
+      "module": "TRY! N4｜第4-1课段",
+      "title": "私の町ハノイ（1）",
+      "source": "sources/TRY！新日语能力考试N4语法必备 (日本ABK（财团法人亚洲学生文化协会）著 etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本课段的范文、全部语法项目、书内练习与相关小结题。",
+      "prerequisite": [
+        "JLPT-006"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 58,
+        "printed": 50
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-008",
+      "phase": "P1-N4 骨架",
+      "track": "语法",
+      "module": "TRY! N4｜第4-2课段",
+      "title": "私の町ハノイ（2）",
+      "source": "sources/TRY！新日语能力考试N4语法必备 (日本ABK（财团法人亚洲学生文化协会）著 etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本课段的范文、全部语法项目、书内练习与相关小结题。",
+      "prerequisite": [
+        "JLPT-007"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 68,
+        "printed": 60
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-009",
+      "phase": "P1-N4 骨架",
+      "track": "语法",
+      "module": "TRY! N4｜第5-1课段",
+      "title": "ハイキングの計画（1）",
+      "source": "sources/TRY！新日语能力考试N4语法必备 (日本ABK（财团法人亚洲学生文化协会）著 etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本课段的范文、全部语法项目、书内练习与相关小结题。",
+      "prerequisite": [
+        "JLPT-008"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 76,
+        "printed": 68
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-010",
+      "phase": "P1-N4 骨架",
+      "track": "语法",
+      "module": "TRY! N4｜第5-2课段",
+      "title": "ハイキングの計画（2）",
+      "source": "sources/TRY！新日语能力考试N4语法必备 (日本ABK（财团法人亚洲学生文化协会）著 etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本课段的范文、全部语法项目、书内练习与相关小结题。",
+      "prerequisite": [
+        "JLPT-009"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 86,
+        "printed": 78
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-011",
+      "phase": "P1-N4 骨架",
+      "track": "语法",
+      "module": "TRY! N4｜第6-1课段",
+      "title": "木の上の子ねこ（1）",
+      "source": "sources/TRY！新日语能力考试N4语法必备 (日本ABK（财团法人亚洲学生文化协会）著 etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本课段的范文、全部语法项目、书内练习与相关小结题。",
+      "prerequisite": [
+        "JLPT-010"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 93,
+        "printed": 85
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-012",
+      "phase": "P1-N4 骨架",
+      "track": "语法",
+      "module": "TRY! N4｜第6-2课段",
+      "title": "木の上の子ねこ（2）",
+      "source": "sources/TRY！新日语能力考试N4语法必备 (日本ABK（财团法人亚洲学生文化协会）著 etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本课段的范文、全部语法项目、书内练习与相关小结题。",
+      "prerequisite": [
+        "JLPT-011"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 99,
+        "printed": 91
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-013",
+      "phase": "P1-N4 骨架",
+      "track": "语法",
+      "module": "TRY! N4｜第7-1课段",
+      "title": "大好きなピアノ（1）",
+      "source": "sources/TRY！新日语能力考试N4语法必备 (日本ABK（财团法人亚洲学生文化协会）著 etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本课段的范文、全部语法项目、书内练习与相关小结题。",
+      "prerequisite": [
+        "JLPT-012"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 110,
+        "printed": 102
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-014",
+      "phase": "P1-N4 骨架",
+      "track": "语法",
+      "module": "TRY! N4｜第7-2课段",
+      "title": "大好きなピアノ（2）",
+      "source": "sources/TRY！新日语能力考试N4语法必备 (日本ABK（财团法人亚洲学生文化协会）著 etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本课段的范文、全部语法项目、书内练习与相关小结题。",
+      "prerequisite": [
+        "JLPT-013"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 117,
+        "printed": 109
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-015",
+      "phase": "P1-N4 骨架",
+      "track": "语法",
+      "module": "TRY! N4｜第8-1课段",
+      "title": "旅館のよやく（1）",
+      "source": "sources/TRY！新日语能力考试N4语法必备 (日本ABK（财团法人亚洲学生文化协会）著 etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本课段的范文、全部语法项目、书内练习与相关小结题。",
+      "prerequisite": [
+        "JLPT-014"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 128,
+        "printed": 120
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-016",
+      "phase": "P1-N4 骨架",
+      "track": "语法",
+      "module": "TRY! N4｜第8-2课段",
+      "title": "旅館のよやく（2）",
+      "source": "sources/TRY！新日语能力考试N4语法必备 (日本ABK（财团法人亚洲学生文化协会）著 etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本课段的范文、全部语法项目、书内练习与相关小结题。",
+      "prerequisite": [
+        "JLPT-015"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 135,
+        "printed": 127
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-017",
+      "phase": "P1-N4 骨架",
+      "track": "语法",
+      "module": "TRY! N4｜第9-1课段",
+      "title": "ゆうしょうインタビュー（1）",
+      "source": "sources/TRY！新日语能力考试N4语法必备 (日本ABK（财团法人亚洲学生文化协会）著 etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本课段的范文、全部语法项目、书内练习与相关小结题。",
+      "prerequisite": [
+        "JLPT-016"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 142,
+        "printed": 134
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-018",
+      "phase": "P1-N4 骨架",
+      "track": "语法",
+      "module": "TRY! N4｜第9-2课段",
+      "title": "ゆうしょうインタビュー（2）",
+      "source": "sources/TRY！新日语能力考试N4语法必备 (日本ABK（财团法人亚洲学生文化协会）著 etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本课段的范文、全部语法项目、书内练习与相关小结题。",
+      "prerequisite": [
+        "JLPT-017"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 150,
+        "printed": 142
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-019",
+      "phase": "P1-N4 骨架",
+      "track": "语法",
+      "module": "TRY! N4｜第10-1课段",
+      "title": "アルバイトのめんせつ（1）",
+      "source": "sources/TRY！新日语能力考试N4语法必备 (日本ABK（财团法人亚洲学生文化协会）著 etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本课段的范文、全部语法项目、书内练习与相关小结题。",
+      "prerequisite": [
+        "JLPT-018"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 158,
+        "printed": 150
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-020",
+      "phase": "P1-N4 骨架",
+      "track": "语法",
+      "module": "TRY! N4｜第10-2课段",
+      "title": "アルバイトのめんせつ（2）",
+      "source": "sources/TRY！新日语能力考试N4语法必备 (日本ABK（财团法人亚洲学生文化协会）著 etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本课段的范文、全部语法项目、书内练习与相关小结题。",
+      "prerequisite": [
+        "JLPT-019"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 164,
+        "printed": 156
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-021",
+      "phase": "P1-N4 骨架",
+      "track": "语法",
+      "module": "TRY! N4｜第11课段",
+      "title": "便利な言葉（助词、副词、指示词、自动词/他动词）",
+      "source": "sources/TRY！新日语能力考试N4语法必备 (日本ABK（财团法人亚洲学生文化协会）著 etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本课段的范文、全部语法项目、书内练习与相关小结题。",
+      "prerequisite": [
+        "JLPT-020"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 171,
+        "printed": 163
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-022",
+      "phase": "P1-N4 骨架",
+      "track": "考试训练",
+      "module": "TRY! N4｜阶段检查",
+      "title": "TRY! N4 模拟试验",
+      "source": "sources/TRY！新日语能力考试N4语法必备 (日本ABK（财团法人亚洲学生文化协会）著 etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "书末模拟试验；按正式考试顺序完成。",
+      "prerequisite": [
+        "JLPT-021"
+      ],
+      "mode": "mock",
+      "steps": [
+        "在不看笔记的前提下完成题组或模拟题。",
+        "核对答案并按题型记录错因。",
+        "把错误关联回需要复习的任务；未达标则重新打开该任务。"
+      ],
+      "completion_rule": "完成全部题目，逐题登记错因，并把正确率与复习任务链接保存。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 179,
+        "printed": 171
+      },
+      "weight": 3
+    },
+    {
+      "id": "JLPT-023",
+      "phase": "P2-N3 过渡",
+      "track": "语法",
+      "module": "TRY! N3｜第1-1课段",
+      "title": "初めての富士登山（1）",
+      "source": "sources/TRY新日语能力考试N3语法必备 (【日】ABK) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本课段的范文、全部语法项目、书内练习与相关小结题。",
+      "prerequisite": [
+        "JLPT-022"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 30,
+        "printed": 16
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-024",
+      "phase": "P2-N3 过渡",
+      "track": "语法",
+      "module": "TRY! N3｜第1-2课段",
+      "title": "初めての富士登山（2）",
+      "source": "sources/TRY新日语能力考试N3语法必备 (【日】ABK) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本课段的范文、全部语法项目、书内练习与相关小结题。",
+      "prerequisite": [
+        "JLPT-023"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 36,
+        "printed": 22
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-025",
+      "phase": "P2-N3 过渡",
+      "track": "语法",
+      "module": "TRY! N3｜第2-1课段",
+      "title": "ぼくの犬、クロ（1）",
+      "source": "sources/TRY新日语能力考试N3语法必备 (【日】ABK) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本课段的范文、全部语法项目、书内练习与相关小结题。",
+      "prerequisite": [
+        "JLPT-024"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 45,
+        "printed": 31
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-026",
+      "phase": "P2-N3 过渡",
+      "track": "语法",
+      "module": "TRY! N3｜第2-2课段",
+      "title": "ぼくの犬、クロ（2）",
+      "source": "sources/TRY新日语能力考试N3语法必备 (【日】ABK) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本课段的范文、全部语法项目、书内练习与相关小结题。",
+      "prerequisite": [
+        "JLPT-025"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 51,
+        "printed": 37
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-027",
+      "phase": "P2-N3 过渡",
+      "track": "语法",
+      "module": "TRY! N3｜第3-1课段",
+      "title": "市民農園の募集（1）",
+      "source": "sources/TRY新日语能力考试N3语法必备 (【日】ABK) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本课段的范文、全部语法项目、书内练习与相关小结题。",
+      "prerequisite": [
+        "JLPT-026"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 58,
+        "printed": 44
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-028",
+      "phase": "P2-N3 过渡",
+      "track": "语法",
+      "module": "TRY! N3｜第3-2课段",
+      "title": "市民農園の募集（2）",
+      "source": "sources/TRY新日语能力考试N3语法必备 (【日】ABK) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本课段的范文、全部语法项目、书内练习与相关小结题。",
+      "prerequisite": [
+        "JLPT-027"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 63,
+        "printed": 49
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-029",
+      "phase": "P2-N3 过渡",
+      "track": "语法",
+      "module": "TRY! N3｜第4-1课段",
+      "title": "水泳大会（1）",
+      "source": "sources/TRY新日语能力考试N3语法必备 (【日】ABK) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本课段的范文、全部语法项目、书内练习与相关小结题。",
+      "prerequisite": [
+        "JLPT-028"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 71,
+        "printed": 57
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-030",
+      "phase": "P2-N3 过渡",
+      "track": "语法",
+      "module": "TRY! N3｜第4-2课段",
+      "title": "水泳大会（2）",
+      "source": "sources/TRY新日语能力考试N3语法必备 (【日】ABK) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本课段的范文、全部语法项目、书内练习与相关小结题。",
+      "prerequisite": [
+        "JLPT-029"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 76,
+        "printed": 62
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-031",
+      "phase": "P2-N3 过渡",
+      "track": "语法",
+      "module": "TRY! N3｜第5-1课段",
+      "title": "手作りハムのレシピ（1）",
+      "source": "sources/TRY新日语能力考试N3语法必备 (【日】ABK) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本课段的范文、全部语法项目、书内练习与相关小结题。",
+      "prerequisite": [
+        "JLPT-030"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 86,
+        "printed": 72
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-032",
+      "phase": "P2-N3 过渡",
+      "track": "语法",
+      "module": "TRY! N3｜第5-2课段",
+      "title": "手作りハムのレシピ（2）",
+      "source": "sources/TRY新日语能力考试N3语法必备 (【日】ABK) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本课段的范文、全部语法项目、书内练习与相关小结题。",
+      "prerequisite": [
+        "JLPT-031"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 91,
+        "printed": 77
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-033",
+      "phase": "P2-N3 过渡",
+      "track": "语法",
+      "module": "TRY! N3｜第6-1课段",
+      "title": "里山について（1）",
+      "source": "sources/TRY新日语能力考试N3语法必备 (【日】ABK) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本课段的范文、全部语法项目、书内练习与相关小结题。",
+      "prerequisite": [
+        "JLPT-032"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 100,
+        "printed": 86
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-034",
+      "phase": "P2-N3 过渡",
+      "track": "语法",
+      "module": "TRY! N3｜第6-2课段",
+      "title": "里山について（2）",
+      "source": "sources/TRY新日语能力考试N3语法必备 (【日】ABK) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本课段的范文、全部语法项目、书内练习与相关小结题。",
+      "prerequisite": [
+        "JLPT-033"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 107,
+        "printed": 93
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-035",
+      "phase": "P2-N3 过渡",
+      "track": "语法",
+      "module": "TRY! N3｜第7-1课段",
+      "title": "不動産屋で（1）",
+      "source": "sources/TRY新日语能力考试N3语法必备 (【日】ABK) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本课段的范文、全部语法项目、书内练习与相关小结题。",
+      "prerequisite": [
+        "JLPT-034"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 116,
+        "printed": 102
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-036",
+      "phase": "P2-N3 过渡",
+      "track": "语法",
+      "module": "TRY! N3｜第7-2课段",
+      "title": "不動産屋で（2）",
+      "source": "sources/TRY新日语能力考试N3语法必备 (【日】ABK) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本课段的范文、全部语法项目、书内练习与相关小结题。",
+      "prerequisite": [
+        "JLPT-035"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 122,
+        "printed": 108
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-037",
+      "phase": "P2-N3 过渡",
+      "track": "语法",
+      "module": "TRY! N3｜第8课段",
+      "title": "就職の面接",
+      "source": "sources/TRY新日语能力考试N3语法必备 (【日】ABK) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本课段的范文、全部语法项目、书内练习与相关小结题。",
+      "prerequisite": [
+        "JLPT-036"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 130,
+        "printed": 116
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-038",
+      "phase": "P2-N3 过渡",
+      "track": "语法",
+      "module": "TRY! N3｜第9-1课段",
+      "title": "お花見（1）",
+      "source": "sources/TRY新日语能力考试N3语法必备 (【日】ABK) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本课段的范文、全部语法项目、书内练习与相关小结题。",
+      "prerequisite": [
+        "JLPT-037"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 141,
+        "printed": 127
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-039",
+      "phase": "P2-N3 过渡",
+      "track": "语法",
+      "module": "TRY! N3｜第9-2课段",
+      "title": "お花見（2）",
+      "source": "sources/TRY新日语能力考试N3语法必备 (【日】ABK) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本课段的范文、全部语法项目、书内练习与相关小结题。",
+      "prerequisite": [
+        "JLPT-038"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 147,
+        "printed": 133
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-040",
+      "phase": "P2-N3 过渡",
+      "track": "语法",
+      "module": "TRY! N3｜第10-1课段",
+      "title": "ゆきの選択（1）",
+      "source": "sources/TRY新日语能力考试N3语法必备 (【日】ABK) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本课段的范文、全部语法项目、书内练习与相关小结题。",
+      "prerequisite": [
+        "JLPT-039"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 154,
+        "printed": 140
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-041",
+      "phase": "P2-N3 过渡",
+      "track": "语法",
+      "module": "TRY! N3｜第10-2课段",
+      "title": "ゆきの選択（2）",
+      "source": "sources/TRY新日语能力考试N3语法必备 (【日】ABK) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本课段的范文、全部语法项目、书内练习与相关小结题。",
+      "prerequisite": [
+        "JLPT-040"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 163,
+        "printed": 149
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-042",
+      "phase": "P2-N3 过渡",
+      "track": "语法",
+      "module": "TRY! N3｜第11-1课段",
+      "title": "友だちのお見舞い（1）",
+      "source": "sources/TRY新日语能力考试N3语法必备 (【日】ABK) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本课段的范文、全部语法项目、书内练习与相关小结题。",
+      "prerequisite": [
+        "JLPT-041"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 172,
+        "printed": 158
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-043",
+      "phase": "P2-N3 过渡",
+      "track": "语法",
+      "module": "TRY! N3｜第11-2课段",
+      "title": "友だちのお見舞い（2）",
+      "source": "sources/TRY新日语能力考试N3语法必备 (【日】ABK) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本课段的范文、全部语法项目、书内练习与相关小结题。",
+      "prerequisite": [
+        "JLPT-042"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 181,
+        "printed": 167
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-044",
+      "phase": "P2-N3 过渡",
+      "track": "考试训练",
+      "module": "N3 阶段检查",
+      "title": "N3 总复盘：错题与相似句型",
+      "source": "sources/TRY新日语能力考试N3语法必备 (【日】ABK) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "附录「似ている文型リスト〈N3レベル〉」与完成过的各课まとめの問題。",
+      "prerequisite": [
+        "JLPT-043"
+      ],
+      "mode": "checkpoint",
+      "steps": [
+        "在不看笔记的前提下完成题组或模拟题。",
+        "核对答案并按题型记录错因。",
+        "把错误关联回需要复习的任务；未达标则重新打开该任务。"
+      ],
+      "completion_rule": "完成全部题目，逐题登记错因，并把正确率与复习任务链接保存。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 198,
+        "printed": 184
+      },
+      "weight": 3
+    },
+    {
+      "id": "JLPT-045",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第1部 句子语法1",
+      "title": "第1课：～とき・～直後に",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "该课全部语法项；重点记录接续、语气、使用条件与相似表达的差异。",
+      "prerequisite": [
+        "JLPT-044"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 22,
+        "printed": 8
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-046",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第1部 句子语法1",
+      "title": "第2课：～している（進行中）",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "该课全部语法项；重点记录接续、语气、使用条件与相似表达的差异。",
+      "prerequisite": [
+        "JLPT-045"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 28,
+        "printed": 14
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-047",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第1部 句子语法1",
+      "title": "第3课：～後で",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "该课全部语法项；重点记录接续、语气、使用条件与相似表达的差异。",
+      "prerequisite": [
+        "JLPT-046"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 34,
+        "printed": 20
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-048",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第1部 句子语法1",
+      "title": "第4课：範囲の始まりと終わり・その間",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "该课全部语法项；重点记录接续、语气、使用条件与相似表达的差异。",
+      "prerequisite": [
+        "JLPT-047"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 40,
+        "printed": 26
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-049",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第1部 句子语法1",
+      "title": "第5课：～だけ",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "该课全部语法项；重点记录接续、语气、使用条件与相似表达的差异。",
+      "prerequisite": [
+        "JLPT-048"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 46,
+        "printed": 32
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-050",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第1部 句子语法1",
+      "title": "第6课：～だけではなく・それに加えて",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "该课全部语法项；重点记录接续、语气、使用条件与相似表达的差异。",
+      "prerequisite": [
+        "JLPT-049"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 54,
+        "printed": 40
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-051",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第1部 句子语法1",
+      "title": "第7课：～について・～を相手にして",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "该课全部语法项；重点记录接续、语气、使用条件与相似表达的差异。",
+      "prerequisite": [
+        "JLPT-050"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 60,
+        "printed": 46
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-052",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第1部 句子语法1",
+      "title": "第8课：～を基準にして",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "该课全部语法项；重点记录接续、语气、使用条件与相似表达的差异。",
+      "prerequisite": [
+        "JLPT-051"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 66,
+        "printed": 52
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-053",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第1部 句子语法1",
+      "title": "第9课：～に関連して・～に対応して",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "该课全部语法项；重点记录接续、语气、使用条件与相似表达的差异。",
+      "prerequisite": [
+        "JLPT-052"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 72,
+        "printed": 58
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-054",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第1部 句子语法1",
+      "title": "第10课：～や～など",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "该课全部语法项；重点记录接续、语气、使用条件与相似表达的差异。",
+      "prerequisite": [
+        "JLPT-053"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 78,
+        "printed": 64
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-055",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第1部 句子语法1",
+      "title": "第11课：～に関係なく・無視して",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "该课全部语法项；重点记录接续、语气、使用条件与相似表达的差异。",
+      "prerequisite": [
+        "JLPT-054"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 86,
+        "printed": 72
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-056",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第1部 句子语法1",
+      "title": "第12课：強く否定する・強く否定しない",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "该课全部语法项；重点记录接续、语气、使用条件与相似表达的差异。",
+      "prerequisite": [
+        "JLPT-055"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 92,
+        "printed": 78
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-057",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第1部 句子语法1",
+      "title": "第13课：～（話題）は",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "该课全部语法项；重点记录接续、语气、使用条件与相似表达的差异。",
+      "prerequisite": [
+        "JLPT-056"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 98,
+        "printed": 84
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-058",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第1部 句子语法1",
+      "title": "第14课：～けれど",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "该课全部语法项；重点记录接续、语气、使用条件与相似表达的差异。",
+      "prerequisite": [
+        "JLPT-057"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 104,
+        "printed": 90
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-059",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第1部 句子语法1",
+      "title": "第15课：もしそうなら・たとえそうでも",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "该课全部语法项；重点记录接续、语气、使用条件与相似表达的差异。",
+      "prerequisite": [
+        "JLPT-058"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 110,
+        "printed": 96
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-060",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第1部 句子语法1",
+      "title": "第16课：～だから（理由）-1",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "该课全部语法项；重点记录接续、语气、使用条件与相似表达的差异。",
+      "prerequisite": [
+        "JLPT-059"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 118,
+        "printed": 104
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-061",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第1部 句子语法1",
+      "title": "第17课：～だから（理由）-2",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "该课全部语法项；重点记录接续、语气、使用条件与相似表达的差异。",
+      "prerequisite": [
+        "JLPT-060"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 124,
+        "printed": 110
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-062",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第1部 句子语法1",
+      "title": "第18课：～できない・困難だ・～できる",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "该课全部语法项；重点记录接续、语气、使用条件与相似表达的差异。",
+      "prerequisite": [
+        "JLPT-061"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 130,
+        "printed": 116
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-063",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第1部 句子语法1",
+      "title": "第19课：～を見て評価すると・～の立場で評価すると",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "该课全部语法项；重点记录接续、语气、使用条件与相似表达的差异。",
+      "prerequisite": [
+        "JLPT-062"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 136,
+        "printed": 122
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-064",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第1部 句子语法1",
+      "title": "第20课：結果はどうなったか",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "该课全部语法项；重点记录接续、语气、使用条件与相似表达的差异。",
+      "prerequisite": [
+        "JLPT-063"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 142,
+        "printed": 128
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-065",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第1部 句子语法1",
+      "title": "第21课：強く言う・軽く言う",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "该课全部语法项；重点记录接续、语气、使用条件与相似表达的差异。",
+      "prerequisite": [
+        "JLPT-064"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 150,
+        "printed": 136
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-066",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第1部 句子语法1",
+      "title": "第22课：～だろうと思う",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "该课全部语法项；重点记录接续、语气、使用条件与相似表达的差异。",
+      "prerequisite": [
+        "JLPT-065"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 156,
+        "printed": 142
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-067",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第1部 句子语法1",
+      "title": "第23课：感想を言う・主張する",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "该课全部语法项；重点记录接续、语气、使用条件与相似表达的差异。",
+      "prerequisite": [
+        "JLPT-066"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 162,
+        "printed": 148
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-068",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第1部 句子语法1",
+      "title": "第24课：提案する・意志を表す",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "该课全部语法项；重点记录接续、语气、使用条件与相似表达的差异。",
+      "prerequisite": [
+        "JLPT-067"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 168,
+        "printed": 154
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-069",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第1部 句子语法1",
+      "title": "第25课：強くそう感じる・思いが強いと感じる",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "该课全部语法项；重点记录接续、语气、使用条件与相似表达的差异。",
+      "prerequisite": [
+        "JLPT-068"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 174,
+        "printed": 160
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-070",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第1部 句子语法1",
+      "title": "第26课：願う・感動する",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "该课全部语法项；重点记录接续、语气、使用条件与相似表达的差异。",
+      "prerequisite": [
+        "JLPT-069"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 180,
+        "printed": 166
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-071",
+      "phase": "P3-N2 专项",
+      "track": "考试训练",
+      "module": "新完全 N2 语法｜第1部检查点",
+      "title": "第1-10课题组",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "按书内题组独立完成并按语法功能归类错因。",
+      "prerequisite": [
+        "JLPT-070"
+      ],
+      "mode": "checkpoint",
+      "steps": [
+        "在不看笔记的前提下完成题组或模拟题。",
+        "核对答案并按题型记录错因。",
+        "把错误关联回需要复习的任务；未达标则重新打开该任务。"
+      ],
+      "completion_rule": "完成全部题目，逐题登记错因，并把正确率与复习任务链接保存。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 84,
+        "printed": 70
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-072",
+      "phase": "P3-N2 专项",
+      "track": "考试训练",
+      "module": "新完全 N2 语法｜第1部检查点",
+      "title": "第1-15课题组",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "按书内题组独立完成并按语法功能归类错因。",
+      "prerequisite": [
+        "JLPT-071"
+      ],
+      "mode": "checkpoint",
+      "steps": [
+        "在不看笔记的前提下完成题组或模拟题。",
+        "核对答案并按题型记录错因。",
+        "把错误关联回需要复习的任务；未达标则重新打开该任务。"
+      ],
+      "completion_rule": "完成全部题目，逐题登记错因，并把正确率与复习任务链接保存。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 116,
+        "printed": 102
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-073",
+      "phase": "P3-N2 专项",
+      "track": "考试训练",
+      "module": "新完全 N2 语法｜第1部检查点",
+      "title": "第1-20课题组",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "按书内题组独立完成并按语法功能归类错因。",
+      "prerequisite": [
+        "JLPT-072"
+      ],
+      "mode": "checkpoint",
+      "steps": [
+        "在不看笔记的前提下完成题组或模拟题。",
+        "核对答案并按题型记录错因。",
+        "把错误关联回需要复习的任务；未达标则重新打开该任务。"
+      ],
+      "completion_rule": "完成全部题目，逐题登记错因，并把正确率与复习任务链接保存。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 148,
+        "printed": 134
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-074",
+      "phase": "P3-N2 专项",
+      "track": "考试训练",
+      "module": "新完全 N2 语法｜第1部检查点",
+      "title": "第1-26课题组",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "按书内题组独立完成并按语法功能归类错因。",
+      "prerequisite": [
+        "JLPT-073"
+      ],
+      "mode": "checkpoint",
+      "steps": [
+        "在不看笔记的前提下完成题组或模拟题。",
+        "核对答案并按题型记录错因。",
+        "把错误关联回需要复习的任务；未达标则重新打开该任务。"
+      ],
+      "completion_rule": "完成全部题目，逐题登记错因，并把正确率与复习任务链接保存。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 186,
+        "printed": 172
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-075",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第2部 句子语法2",
+      "title": "第1课：文の組み立て-1：決まった形",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "完成句子组织类题目，能说明选项位置与句法关系。",
+      "prerequisite": [
+        "JLPT-074"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 218,
+        "printed": 204
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-076",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第2部 句子语法2",
+      "title": "第2课：文の組み立て-2：名詞を説明する形式",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "完成句子组织类题目，能说明选项位置与句法关系。",
+      "prerequisite": [
+        "JLPT-075"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 220,
+        "printed": 206
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-077",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第2部 句子语法2",
+      "title": "第3课：文の組み立て-3：「～ない」がつく文法形式",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "完成句子组织类题目，能说明选项位置与句法关系。",
+      "prerequisite": [
+        "JLPT-076"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 224,
+        "printed": 210
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-078",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第3部 文章语法",
+      "title": "第1课：始めと終わりが正しく対応した文",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "在完整文章中判断句间关系、文体与语法选择。",
+      "prerequisite": [
+        "JLPT-077"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 228,
+        "printed": 214
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-079",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第3部 文章语法",
+      "title": "第2课：時制",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "在完整文章中判断句间关系、文体与语法选择。",
+      "prerequisite": [
+        "JLPT-078"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 234,
+        "printed": 220
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-080",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第3部 文章语法",
+      "title": "第3课：条件を表す文",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "在完整文章中判断句间关系、文体与语法选择。",
+      "prerequisite": [
+        "JLPT-079"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 240,
+        "printed": 226
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-081",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第3部 文章语法",
+      "title": "第4课：視点を動かさない手段-1：动词的使い方",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "在完整文章中判断句间关系、文体与语法选择。",
+      "prerequisite": [
+        "JLPT-080"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 246,
+        "printed": 232
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-082",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第3部 文章语法",
+      "title": "第5课：視点を動かさない手段-2：～てくる・～ていく",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "在完整文章中判断句间关系、文体与语法选择。",
+      "prerequisite": [
+        "JLPT-081"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 252,
+        "printed": 238
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-083",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第3部 文章语法",
+      "title": "第6课：視点を動かさない手段-3：受身・使役・使役受身",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "在完整文章中判断句间关系、文体与语法选择。",
+      "prerequisite": [
+        "JLPT-082"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 258,
+        "printed": 244
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-084",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第3部 文章语法",
+      "title": "第7课：視点を動かさない手段-4：～てあげる・～てもらう・～てくれる",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "在完整文章中判断句间关系、文体与语法选择。",
+      "prerequisite": [
+        "JLPT-083"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 264,
+        "printed": 250
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-085",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第3部 文章语法",
+      "title": "第8课：指示表現「こ・そ・あ」の使い分け",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "在完整文章中判断句间关系、文体与语法选择。",
+      "prerequisite": [
+        "JLPT-084"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 270,
+        "printed": 256
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-086",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第3部 文章语法",
+      "title": "第9课：「は・が」の使い分け",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "在完整文章中判断句间关系、文体与语法选择。",
+      "prerequisite": [
+        "JLPT-085"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 276,
+        "printed": 262
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-087",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第3部 文章语法",
+      "title": "第10课：接続表現",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "在完整文章中判断句间关系、文体与语法选择。",
+      "prerequisite": [
+        "JLPT-086"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 282,
+        "printed": 268
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-088",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第3部 文章语法",
+      "title": "第11课：省略・繰り返し・言い換え",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "在完整文章中判断句间关系、文体与语法选择。",
+      "prerequisite": [
+        "JLPT-087"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 288,
+        "printed": 274
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-089",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第3部 文章语法",
+      "title": "第12课：文体の一貫性",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "在完整文章中判断句间关系、文体与语法选择。",
+      "prerequisite": [
+        "JLPT-088"
+      ],
+      "mode": "learn",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 294,
+        "printed": 280
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-090",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第4部 文法形式的整理",
+      "title": "A：元の言葉に着目：关联词源",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "作为总整理：将易混表达建立可检索的辨析卡。",
+      "prerequisite": [
+        "JLPT-089"
+      ],
+      "mode": "review",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 188,
+        "printed": 174
+      },
+      "weight": 1
+    },
+    {
+      "id": "JLPT-091",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第4部 文法形式的整理",
+      "title": "B：「言う・する」を使った言い方",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "作为总整理：将易混表达建立可检索的辨析卡。",
+      "prerequisite": [
+        "JLPT-090"
+      ],
+      "mode": "review",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 192,
+        "printed": 178
+      },
+      "weight": 1
+    },
+    {
+      "id": "JLPT-092",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第4部 文法形式的整理",
+      "title": "C：古い言葉を使った言い方",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "作为总整理：将易混表达建立可检索的辨析卡。",
+      "prerequisite": [
+        "JLPT-091"
+      ],
+      "mode": "review",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 196,
+        "printed": 182
+      },
+      "weight": 1
+    },
+    {
+      "id": "JLPT-093",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第4部 文法形式的整理",
+      "title": "D：「もの・こと」を使った言い方",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "作为总整理：将易混表达建立可检索的辨析卡。",
+      "prerequisite": [
+        "JLPT-092"
+      ],
+      "mode": "review",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 200,
+        "printed": 186
+      },
+      "weight": 1
+    },
+    {
+      "id": "JLPT-094",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第4部 文法形式的整理",
+      "title": "E：「わけ・ところ」を使った言い方",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "作为总整理：将易混表达建立可检索的辨析卡。",
+      "prerequisite": [
+        "JLPT-093"
+      ],
+      "mode": "review",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 206,
+        "printed": 192
+      },
+      "weight": 1
+    },
+    {
+      "id": "JLPT-095",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第4部 文法形式的整理",
+      "title": "F：二つの言葉を組にする言い方・助詞",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "作为总整理：将易混表达建立可检索的辨析卡。",
+      "prerequisite": [
+        "JLPT-094"
+      ],
+      "mode": "review",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 210,
+        "printed": 196
+      },
+      "weight": 1
+    },
+    {
+      "id": "JLPT-096",
+      "phase": "P3-N2 专项",
+      "track": "语法",
+      "module": "新完全 N2 语法｜第4部 文法形式的整理",
+      "title": "G：文法的性質の整理",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "作为总整理：将易混表达建立可检索的辨析卡。",
+      "prerequisite": [
+        "JLPT-095"
+      ],
+      "mode": "review",
+      "steps": [
+        "阅读该单元的对话或范文，先理解语境。",
+        "学习所有语法项目：含义、接续、使用条件与例句。",
+        "完成书内「やってみよう！」或对应练习。",
+        "完成该段相关「まとめの問題」并把错项记入错题记录。",
+        "将不认识的高频词加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 214,
+        "printed": 200
+      },
+      "weight": 1
+    },
+    {
+      "id": "JLPT-097",
+      "phase": "P4-冲刺与复盘",
+      "track": "考试训练",
+      "module": "新完全 N2 语法｜模拟试验",
+      "title": "模拟试验 第1回",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "依正式时间完成语法部分；复盘至每个错误语法任务。",
+      "prerequisite": [
+        "JLPT-096"
+      ],
+      "mode": "mock",
+      "steps": [
+        "在不看笔记的前提下完成题组或模拟题。",
+        "核对答案并按题型记录错因。",
+        "把错误关联回需要复习的任务；未达标则重新打开该任务。"
+      ],
+      "completion_rule": "完成全部题目，逐题登记错因，并把正确率与复习任务链接保存。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 300,
+        "printed": 286
+      },
+      "weight": 3
+    },
+    {
+      "id": "JLPT-098",
+      "phase": "P4-冲刺与复盘",
+      "track": "考试训练",
+      "module": "新完全 N2 语法｜模拟试验",
+      "title": "模拟试验 第2回",
+      "source": "sources/新完全掌握日语能力考试N2级语法 (友松悦子,福島佐知,中村かおり) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "依正式时间完成语法部分；复盘至每个错误语法任务。",
+      "prerequisite": [
+        "JLPT-097"
+      ],
+      "mode": "mock",
+      "steps": [
+        "在不看笔记的前提下完成题组或模拟题。",
+        "核对答案并按题型记录错因。",
+        "把错误关联回需要复习的任务；未达标则重新打开该任务。"
+      ],
+      "completion_rule": "完成全部题目，逐题登记错因，并把正确率与复习任务链接保存。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 304,
+        "printed": 290
+      },
+      "weight": 3
+    },
+    {
+      "id": "JLPT-099",
+      "phase": "P3-N2 专项",
+      "track": "阅读",
+      "module": "新完全 N2 阅读",
+      "title": "文章结构：对比",
+      "source": "sources/新完全掌握日语能力考试N2级阅读 (Pdg2Pic, （日）清水知子，中村则子等著；北京未名天日语学校教研组翻译) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本技能的讲解、例题与练习；重点保留依据句与错因。",
+      "prerequisite": [
+        "JLPT-044"
+      ],
+      "mode": "learn",
+      "steps": [
+        "限时完成本技能的练习，不先查词。",
+        "核对答案并定位每题的依据句。",
+        "归纳本技能的解题线索和错误原因。",
+        "把阻碍理解的词汇加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 16,
+        "printed": 4
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-100",
+      "phase": "P3-N2 专项",
+      "track": "阅读",
+      "module": "新完全 N2 阅读",
+      "title": "文章结构：言い換え",
+      "source": "sources/新完全掌握日语能力考试N2级阅读 (Pdg2Pic, （日）清水知子，中村则子等著；北京未名天日语学校教研组翻译) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本技能的讲解、例题与练习；重点保留依据句与错因。",
+      "prerequisite": [
+        "JLPT-044"
+      ],
+      "mode": "learn",
+      "steps": [
+        "限时完成本技能的练习，不先查词。",
+        "核对答案并定位每题的依据句。",
+        "归纳本技能的解题线索和错误原因。",
+        "把阻碍理解的词汇加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 26,
+        "printed": 14
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-101",
+      "phase": "P3-N2 专项",
+      "track": "阅读",
+      "module": "新完全 N2 阅读",
+      "title": "文章结构：比喻",
+      "source": "sources/新完全掌握日语能力考试N2级阅读 (Pdg2Pic, （日）清水知子，中村则子等著；北京未名天日语学校教研组翻译) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本技能的讲解、例题与练习；重点保留依据句与错因。",
+      "prerequisite": [
+        "JLPT-044"
+      ],
+      "mode": "learn",
+      "steps": [
+        "限时完成本技能的练习，不先查词。",
+        "核对答案并定位每题的依据句。",
+        "归纳本技能的解题线索和错误原因。",
+        "把阻碍理解的词汇加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 34,
+        "printed": 22
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-102",
+      "phase": "P3-N2 专项",
+      "track": "阅读",
+      "module": "新完全 N2 阅读",
+      "title": "文章结构：疑问提示句",
+      "source": "sources/新完全掌握日语能力考试N2级阅读 (Pdg2Pic, （日）清水知子，中村则子等著；北京未名天日语学校教研组翻译) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本技能的讲解、例题与练习；重点保留依据句与错因。",
+      "prerequisite": [
+        "JLPT-044"
+      ],
+      "mode": "learn",
+      "steps": [
+        "限时完成本技能的练习，不先查词。",
+        "核对答案并定位每题的依据句。",
+        "归纳本技能的解题线索和错误原因。",
+        "把阻碍理解的词汇加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 38,
+        "printed": 26
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-103",
+      "phase": "P3-N2 专项",
+      "track": "阅读",
+      "module": "新完全 N2 阅读",
+      "title": "文章结构：主张表现",
+      "source": "sources/新完全掌握日语能力考试N2级阅读 (Pdg2Pic, （日）清水知子，中村则子等著；北京未名天日语学校教研组翻译) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本技能的讲解、例题与练习；重点保留依据句与错因。",
+      "prerequisite": [
+        "JLPT-044"
+      ],
+      "mode": "learn",
+      "steps": [
+        "限时完成本技能的练习，不先查词。",
+        "核对答案并定位每题的依据句。",
+        "归纳本技能的解题线索和错误原因。",
+        "把阻碍理解的词汇加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 44,
+        "printed": 32
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-104",
+      "phase": "P3-N2 专项",
+      "track": "阅读",
+      "module": "新完全 N2 阅读",
+      "title": "细节解题：指示語",
+      "source": "sources/新完全掌握日语能力考试N2级阅读 (Pdg2Pic, （日）清水知子，中村则子等著；北京未名天日语学校教研组翻译) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本技能的讲解、例题与练习；重点保留依据句与错因。",
+      "prerequisite": [
+        "JLPT-044"
+      ],
+      "mode": "learn",
+      "steps": [
+        "限时完成本技能的练习，不先查词。",
+        "核对答案并定位每题的依据句。",
+        "归纳本技能的解题线索和错误原因。",
+        "把阻碍理解的词汇加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 50,
+        "printed": 38
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-105",
+      "phase": "P3-N2 专项",
+      "track": "阅读",
+      "module": "新完全 N2 阅读",
+      "title": "细节解题：だれが・何が・何を",
+      "source": "sources/新完全掌握日语能力考试N2级阅读 (Pdg2Pic, （日）清水知子，中村则子等著；北京未名天日语学校教研组翻译) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本技能的讲解、例题与练习；重点保留依据句与错因。",
+      "prerequisite": [
+        "JLPT-044"
+      ],
+      "mode": "learn",
+      "steps": [
+        "限时完成本技能的练习，不先查词。",
+        "核对答案并定位每题的依据句。",
+        "归纳本技能的解题线索和错误原因。",
+        "把阻碍理解的词汇加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 58,
+        "printed": 46
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-106",
+      "phase": "P3-N2 专项",
+      "track": "阅读",
+      "module": "新完全 N2 阅读",
+      "title": "细节解题：下線部の意味",
+      "source": "sources/新完全掌握日语能力考试N2级阅读 (Pdg2Pic, （日）清水知子，中村则子等著；北京未名天日语学校教研组翻译) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本技能的讲解、例题与练习；重点保留依据句与错因。",
+      "prerequisite": [
+        "JLPT-044"
+      ],
+      "mode": "learn",
+      "steps": [
+        "限时完成本技能的练习，不先查词。",
+        "核对答案并定位每题的依据句。",
+        "归纳本技能的解题线索和错误原因。",
+        "把阻碍理解的词汇加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 64,
+        "printed": 52
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-107",
+      "phase": "P3-N2 专项",
+      "track": "阅读",
+      "module": "新完全 N2 阅读",
+      "title": "细节解题：理由",
+      "source": "sources/新完全掌握日语能力考试N2级阅读 (Pdg2Pic, （日）清水知子，中村则子等著；北京未名天日语学校教研组翻译) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本技能的讲解、例题与练习；重点保留依据句与错因。",
+      "prerequisite": [
+        "JLPT-044"
+      ],
+      "mode": "learn",
+      "steps": [
+        "限时完成本技能的练习，不先查词。",
+        "核对答案并定位每题的依据句。",
+        "归纳本技能的解题线索和错误原因。",
+        "把阻碍理解的词汇加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 70,
+        "printed": 58
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-108",
+      "phase": "P3-N2 专项",
+      "track": "阅读",
+      "module": "新完全 N2 阅读",
+      "title": "细节解题：例",
+      "source": "sources/新完全掌握日语能力考试N2级阅读 (Pdg2Pic, （日）清水知子，中村则子等著；北京未名天日语学校教研组翻译) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本技能的讲解、例题与练习；重点保留依据句与错因。",
+      "prerequisite": [
+        "JLPT-044"
+      ],
+      "mode": "learn",
+      "steps": [
+        "限时完成本技能的练习，不先查词。",
+        "核对答案并定位每题的依据句。",
+        "归纳本技能的解题线索和错误原因。",
+        "把阻碍理解的词汇加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 80,
+        "printed": 68
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-109",
+      "phase": "P3-N2 专项",
+      "track": "阅读",
+      "module": "新完全 N2 阅读",
+      "title": "实用文本：整体把握",
+      "source": "sources/新完全掌握日语能力考试N2级阅读 (Pdg2Pic, （日）清水知子，中村则子等著；北京未名天日语学校教研组翻译) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本技能的讲解、例题与练习；重点保留依据句与错因。",
+      "prerequisite": [
+        "JLPT-044"
+      ],
+      "mode": "learn",
+      "steps": [
+        "限时完成本技能的练习，不先查词。",
+        "核对答案并定位每题的依据句。",
+        "归纳本技能的解题线索和错误原因。",
+        "把阻碍理解的词汇加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 88,
+        "printed": 76
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-110",
+      "phase": "P3-N2 专项",
+      "track": "阅读",
+      "module": "新完全 N2 阅读",
+      "title": "信息检索：广告",
+      "source": "sources/新完全掌握日语能力考试N2级阅读 (Pdg2Pic, （日）清水知子，中村则子等著；北京未名天日语学校教研组翻译) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本技能的讲解、例题与练习；重点保留依据句与错因。",
+      "prerequisite": [
+        "JLPT-044"
+      ],
+      "mode": "learn",
+      "steps": [
+        "限时完成本技能的练习，不先查词。",
+        "核对答案并定位每题的依据句。",
+        "归纳本技能的解题线索和错误原因。",
+        "把阻碍理解的词汇加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 98,
+        "printed": 86
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-111",
+      "phase": "P3-N2 专项",
+      "track": "阅读",
+      "module": "新完全 N2 阅读",
+      "title": "信息检索：通知",
+      "source": "sources/新完全掌握日语能力考试N2级阅读 (Pdg2Pic, （日）清水知子，中村则子等著；北京未名天日语学校教研组翻译) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本技能的讲解、例题与练习；重点保留依据句与错因。",
+      "prerequisite": [
+        "JLPT-044"
+      ],
+      "mode": "learn",
+      "steps": [
+        "限时完成本技能的练习，不先查词。",
+        "核对答案并定位每题的依据句。",
+        "归纳本技能的解题线索和错误原因。",
+        "把阻碍理解的词汇加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 106,
+        "printed": 94
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-112",
+      "phase": "P3-N2 专项",
+      "track": "阅读",
+      "module": "新完全 N2 阅读",
+      "title": "信息检索：说明书",
+      "source": "sources/新完全掌握日语能力考试N2级阅读 (Pdg2Pic, （日）清水知子，中村则子等著；北京未名天日语学校教研组翻译) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本技能的讲解、例题与练习；重点保留依据句与错因。",
+      "prerequisite": [
+        "JLPT-044"
+      ],
+      "mode": "learn",
+      "steps": [
+        "限时完成本技能的练习，不先查词。",
+        "核对答案并定位每题的依据句。",
+        "归纳本技能的解题线索和错误原因。",
+        "把阻碍理解的词汇加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 118,
+        "printed": 106
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-113",
+      "phase": "P3-N2 专项",
+      "track": "阅读",
+      "module": "新完全 N2 阅读",
+      "title": "信息检索：表・リスト",
+      "source": "sources/新完全掌握日语能力考试N2级阅读 (Pdg2Pic, （日）清水知子，中村则子等著；北京未名天日语学校教研组翻译) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本技能的讲解、例题与练习；重点保留依据句与错因。",
+      "prerequisite": [
+        "JLPT-044"
+      ],
+      "mode": "learn",
+      "steps": [
+        "限时完成本技能的练习，不先查词。",
+        "核对答案并定位每题的依据句。",
+        "归纳本技能的解题线索和错误原因。",
+        "把阻碍理解的词汇加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 128,
+        "printed": 116
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-114",
+      "phase": "P3-N2 专项",
+      "track": "阅读",
+      "module": "新完全 N2 阅读",
+      "title": "实践：内容理解（中篇）",
+      "source": "sources/新完全掌握日语能力考试N2级阅读 (Pdg2Pic, （日）清水知子，中村则子等著；北京未名天日语学校教研组翻译) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本技能的讲解、例题与练习；重点保留依据句与错因。",
+      "prerequisite": [
+        "JLPT-044"
+      ],
+      "mode": "learn",
+      "steps": [
+        "限时完成本技能的练习，不先查词。",
+        "核对答案并定位每题的依据句。",
+        "归纳本技能的解题线索和错误原因。",
+        "把阻碍理解的词汇加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 136,
+        "printed": 124
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-115",
+      "phase": "P3-N2 专项",
+      "track": "阅读",
+      "module": "新完全 N2 阅读",
+      "title": "实践：主张理解（长篇）",
+      "source": "sources/新完全掌握日语能力考试N2级阅读 (Pdg2Pic, （日）清水知子，中村则子等著；北京未名天日语学校教研组翻译) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本技能的讲解、例题与练习；重点保留依据句与错因。",
+      "prerequisite": [
+        "JLPT-044"
+      ],
+      "mode": "learn",
+      "steps": [
+        "限时完成本技能的练习，不先查词。",
+        "核对答案并定位每题的依据句。",
+        "归纳本技能的解题线索和错误原因。",
+        "把阻碍理解的词汇加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 144,
+        "printed": 132
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-116",
+      "phase": "P3-N2 专项",
+      "track": "阅读",
+      "module": "新完全 N2 阅读",
+      "title": "实践：综合理解",
+      "source": "sources/新完全掌握日语能力考试N2级阅读 (Pdg2Pic, （日）清水知子，中村则子等著；北京未名天日语学校教研组翻译) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本技能的讲解、例题与练习；重点保留依据句与错因。",
+      "prerequisite": [
+        "JLPT-044"
+      ],
+      "mode": "learn",
+      "steps": [
+        "限时完成本技能的练习，不先查词。",
+        "核对答案并定位每题的依据句。",
+        "归纳本技能的解题线索和错误原因。",
+        "把阻碍理解的词汇加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 159,
+        "printed": 147
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-117",
+      "phase": "P3-N2 专项",
+      "track": "阅读",
+      "module": "新完全 N2 阅读",
+      "title": "实践：信息检索",
+      "source": "sources/新完全掌握日语能力考试N2级阅读 (Pdg2Pic, （日）清水知子，中村则子等著；北京未名天日语学校教研组翻译) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "本技能的讲解、例题与练习；重点保留依据句与错因。",
+      "prerequisite": [
+        "JLPT-044"
+      ],
+      "mode": "learn",
+      "steps": [
+        "限时完成本技能的练习，不先查词。",
+        "核对答案并定位每题的依据句。",
+        "归纳本技能的解题线索和错误原因。",
+        "把阻碍理解的词汇加入识日。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 173,
+        "printed": 161
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-118",
+      "phase": "P4-冲刺与复盘",
+      "track": "考试训练",
+      "module": "新完全 N2 阅读｜模拟试验",
+      "title": "阅读模拟试验",
+      "source": "sources/新完全掌握日语能力考试N2级阅读 (Pdg2Pic, （日）清水知子，中村则子等著；北京未名天日语学校教研组翻译) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "按阅读考试时间完成；记录每题耗时、错误类型和依据句定位是否成功。",
+      "prerequisite": [
+        "JLPT-117"
+      ],
+      "mode": "mock",
+      "steps": [
+        "在不看笔记的前提下完成题组或模拟题。",
+        "核对答案并按题型记录错因。",
+        "把错误关联回需要复习的任务；未达标则重新打开该任务。"
+      ],
+      "completion_rule": "完成全部题目，逐题登记错因，并把正确率与复习任务链接保存。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 193,
+        "printed": 181
+      },
+      "weight": 3
+    },
+    {
+      "id": "JLPT-119",
+      "phase": "P3-N2 专项",
+      "track": "听力",
+      "module": "新完全 N2 听力｜I 技能",
+      "title": "音声の特徴：似ている音の聞き分け",
+      "source": "sources/新完全掌握日语能力考试N2级 听力 (（日）中村香织等编著, Zhong cun xiang zhi etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "完成该技能全部练习；严格执行“盲听→核对→脚本→复听”流程。",
+      "prerequisite": [
+        "JLPT-044"
+      ],
+      "mode": "learn",
+      "steps": [
+        "先按正式题序完成一次，不暂停、不看原文。",
+        "核对答案后再听一次，标记漏听的信息。",
+        "阅读脚本，整理信号词、条件或转折。",
+        "进行一次遮住脚本的复听并记录错因。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 24,
+        "printed": 14
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-120",
+      "phase": "P3-N2 专项",
+      "track": "听力",
+      "module": "新完全 N2 听力｜I 技能",
+      "title": "音声の特徴：音の変化や縮約形",
+      "source": "sources/新完全掌握日语能力考试N2级 听力 (（日）中村香织等编著, Zhong cun xiang zhi etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "完成该技能全部练习；严格执行“盲听→核对→脚本→复听”流程。",
+      "prerequisite": [
+        "JLPT-044"
+      ],
+      "mode": "learn",
+      "steps": [
+        "先按正式题序完成一次，不暂停、不看原文。",
+        "核对答案后再听一次，标记漏听的信息。",
+        "阅读脚本，整理信号词、条件或转折。",
+        "进行一次遮住脚本的复听并记录错因。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 26,
+        "printed": 16
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-121",
+      "phase": "P3-N2 专项",
+      "track": "听力",
+      "module": "新完全 N2 听力｜II 技能",
+      "title": "即时应答：最初の文を理解する",
+      "source": "sources/新完全掌握日语能力考试N2级 听力 (（日）中村香织等编著, Zhong cun xiang zhi etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "完成该技能全部练习；严格执行“盲听→核对→脚本→复听”流程。",
+      "prerequisite": [
+        "JLPT-044"
+      ],
+      "mode": "learn",
+      "steps": [
+        "先按正式题序完成一次，不暂停、不看原文。",
+        "核对答案后再听一次，标记漏听的信息。",
+        "阅读脚本，整理信号词、条件或转折。",
+        "进行一次遮住脚本的复听并记录错因。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 29,
+        "printed": 19
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-122",
+      "phase": "P3-N2 专项",
+      "track": "听力",
+      "module": "新完全 N2 听力｜II 技能",
+      "title": "即时应答：返事の文を考える",
+      "source": "sources/新完全掌握日语能力考试N2级 听力 (（日）中村香织等编著, Zhong cun xiang zhi etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "完成该技能全部练习；严格执行“盲听→核对→脚本→复听”流程。",
+      "prerequisite": [
+        "JLPT-044"
+      ],
+      "mode": "learn",
+      "steps": [
+        "先按正式题序完成一次，不暂停、不看原文。",
+        "核对答案后再听一次，标记漏听的信息。",
+        "阅读脚本，整理信号词、条件或转折。",
+        "进行一次遮住脚本的复听并记录错因。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 37,
+        "printed": 27
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-123",
+      "phase": "P3-N2 专项",
+      "track": "听力",
+      "module": "新完全 N2 听力｜II 技能",
+      "title": "即时应答：確認問題",
+      "source": "sources/新完全掌握日语能力考试N2级 听力 (（日）中村香织等编著, Zhong cun xiang zhi etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "完成该技能全部练习；严格执行“盲听→核对→脚本→复听”流程。",
+      "prerequisite": [
+        "JLPT-044"
+      ],
+      "mode": "learn",
+      "steps": [
+        "先按正式题序完成一次，不暂停、不看原文。",
+        "核对答案后再听一次，标记漏听的信息。",
+        "阅读脚本，整理信号词、条件或转折。",
+        "进行一次遮住脚本的复听并记录错因。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 41,
+        "printed": 31
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-124",
+      "phase": "P3-N2 专项",
+      "track": "听力",
+      "module": "新完全 N2 听力｜III 技能",
+      "title": "课题理解：するべきことを理解する",
+      "source": "sources/新完全掌握日语能力考试N2级 听力 (（日）中村香织等编著, Zhong cun xiang zhi etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "完成该技能全部练习；严格执行“盲听→核对→脚本→复听”流程。",
+      "prerequisite": [
+        "JLPT-044"
+      ],
+      "mode": "learn",
+      "steps": [
+        "先按正式题序完成一次，不暂停、不看原文。",
+        "核对答案后再听一次，标记漏听的信息。",
+        "阅读脚本，整理信号词、条件或转折。",
+        "进行一次遮住脚本的复听并记录错因。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 43,
+        "printed": 33
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-125",
+      "phase": "P3-N2 专项",
+      "track": "听力",
+      "module": "新完全 N2 听力｜III 技能",
+      "title": "课题理解：最初にすることを考える",
+      "source": "sources/新完全掌握日语能力考试N2级 听力 (（日）中村香织等编著, Zhong cun xiang zhi etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "完成该技能全部练习；严格执行“盲听→核对→脚本→复听”流程。",
+      "prerequisite": [
+        "JLPT-044"
+      ],
+      "mode": "learn",
+      "steps": [
+        "先按正式题序完成一次，不暂停、不看原文。",
+        "核对答案后再听一次，标记漏听的信息。",
+        "阅读脚本，整理信号词、条件或转折。",
+        "进行一次遮住脚本的复听并记录错因。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 47,
+        "printed": 37
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-126",
+      "phase": "P3-N2 专项",
+      "track": "听力",
+      "module": "新完全 N2 听力｜III 技能",
+      "title": "课题理解：条件に合う情報を聞き取る",
+      "source": "sources/新完全掌握日语能力考试N2级 听力 (（日）中村香织等编著, Zhong cun xiang zhi etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "完成该技能全部练习；严格执行“盲听→核对→脚本→复听”流程。",
+      "prerequisite": [
+        "JLPT-044"
+      ],
+      "mode": "learn",
+      "steps": [
+        "先按正式题序完成一次，不暂停、不看原文。",
+        "核对答案后再听一次，标记漏听的信息。",
+        "阅读脚本，整理信号词、条件或转折。",
+        "进行一次遮住脚本的复听并记录错因。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 50,
+        "printed": 40
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-127",
+      "phase": "P3-N2 专项",
+      "track": "听力",
+      "module": "新完全 N2 听力｜III 技能",
+      "title": "课题理解：条件を聞き取って整理する",
+      "source": "sources/新完全掌握日语能力考试N2级 听力 (（日）中村香织等编著, Zhong cun xiang zhi etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "完成该技能全部练习；严格执行“盲听→核对→脚本→复听”流程。",
+      "prerequisite": [
+        "JLPT-044"
+      ],
+      "mode": "learn",
+      "steps": [
+        "先按正式题序完成一次，不暂停、不看原文。",
+        "核对答案后再听一次，标记漏听的信息。",
+        "阅读脚本，整理信号词、条件或转折。",
+        "进行一次遮住脚本的复听并记录错因。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 53,
+        "printed": 43
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-128",
+      "phase": "P3-N2 专项",
+      "track": "听力",
+      "module": "新完全 N2 听力｜III 技能",
+      "title": "课题理解：確認問題",
+      "source": "sources/新完全掌握日语能力考试N2级 听力 (（日）中村香织等编著, Zhong cun xiang zhi etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "完成该技能全部练习；严格执行“盲听→核对→脚本→复听”流程。",
+      "prerequisite": [
+        "JLPT-044"
+      ],
+      "mode": "learn",
+      "steps": [
+        "先按正式题序完成一次，不暂停、不看原文。",
+        "核对答案后再听一次，标记漏听的信息。",
+        "阅读脚本，整理信号词、条件或转折。",
+        "进行一次遮住脚本的复听并记录错因。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 56,
+        "printed": 46
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-129",
+      "phase": "P3-N2 专项",
+      "track": "听力",
+      "module": "新完全 N2 听力｜IV 技能",
+      "title": "要点理解：話し手の意図を考える",
+      "source": "sources/新完全掌握日语能力考试N2级 听力 (（日）中村香织等编著, Zhong cun xiang zhi etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "完成该技能全部练习；严格执行“盲听→核对→脚本→复听”流程。",
+      "prerequisite": [
+        "JLPT-044"
+      ],
+      "mode": "learn",
+      "steps": [
+        "先按正式题序完成一次，不暂停、不看原文。",
+        "核对答案后再听一次，标记漏听的信息。",
+        "阅读脚本，整理信号词、条件或转折。",
+        "进行一次遮住脚本的复听并记录错因。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 58,
+        "printed": 48
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-130",
+      "phase": "P3-N2 专项",
+      "track": "听力",
+      "module": "新完全 N2 听力｜IV 技能",
+      "title": "要点理解：言い換えに注意する",
+      "source": "sources/新完全掌握日语能力考试N2级 听力 (（日）中村香织等编著, Zhong cun xiang zhi etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "完成该技能全部练习；严格执行“盲听→核对→脚本→复听”流程。",
+      "prerequisite": [
+        "JLPT-044"
+      ],
+      "mode": "learn",
+      "steps": [
+        "先按正式题序完成一次，不暂停、不看原文。",
+        "核对答案后再听一次，标记漏听的信息。",
+        "阅读脚本，整理信号词、条件或转折。",
+        "进行一次遮住脚本的复听并记录错因。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 62,
+        "printed": 52
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-131",
+      "phase": "P3-N2 专项",
+      "track": "听力",
+      "module": "新完全 N2 听力｜IV 技能",
+      "title": "要点理解：多くの情報の中から必要な情報を拾う",
+      "source": "sources/新完全掌握日语能力考试N2级 听力 (（日）中村香织等编著, Zhong cun xiang zhi etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "完成该技能全部练习；严格执行“盲听→核对→脚本→复听”流程。",
+      "prerequisite": [
+        "JLPT-044"
+      ],
+      "mode": "learn",
+      "steps": [
+        "先按正式题序完成一次，不暂停、不看原文。",
+        "核对答案后再听一次，标记漏听的信息。",
+        "阅读脚本，整理信号词、条件或转折。",
+        "进行一次遮住脚本的复听并记录错因。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 66,
+        "printed": 56
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-132",
+      "phase": "P3-N2 专项",
+      "track": "听力",
+      "module": "新完全 N2 听力｜IV 技能",
+      "title": "要点理解：確認問題",
+      "source": "sources/新完全掌握日语能力考试N2级 听力 (（日）中村香织等编著, Zhong cun xiang zhi etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "完成该技能全部练习；严格执行“盲听→核对→脚本→复听”流程。",
+      "prerequisite": [
+        "JLPT-044"
+      ],
+      "mode": "learn",
+      "steps": [
+        "先按正式题序完成一次，不暂停、不看原文。",
+        "核对答案后再听一次，标记漏听的信息。",
+        "阅读脚本，整理信号词、条件或转折。",
+        "进行一次遮住脚本的复听并记录错因。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 71,
+        "printed": 61
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-133",
+      "phase": "P3-N2 专项",
+      "track": "听力",
+      "module": "新完全 N2 听力｜V 技能",
+      "title": "概要理解：例と例をまとめる言葉を聞き分ける",
+      "source": "sources/新完全掌握日语能力考试N2级 听力 (（日）中村香织等编著, Zhong cun xiang zhi etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "完成该技能全部练习；严格执行“盲听→核对→脚本→复听”流程。",
+      "prerequisite": [
+        "JLPT-044"
+      ],
+      "mode": "learn",
+      "steps": [
+        "先按正式题序完成一次，不暂停、不看原文。",
+        "核对答案后再听一次，标记漏听的信息。",
+        "阅读脚本，整理信号词、条件或转折。",
+        "进行一次遮住脚本的复听并记录错因。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 73,
+        "printed": 63
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-134",
+      "phase": "P3-N2 专项",
+      "track": "听力",
+      "module": "新完全 N2 听力｜V 技能",
+      "title": "概要理解：キーワードを関連づけて話の構造をつかむ",
+      "source": "sources/新完全掌握日语能力考试N2级 听力 (（日）中村香织等编著, Zhong cun xiang zhi etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "完成该技能全部练习；严格执行“盲听→核对→脚本→复听”流程。",
+      "prerequisite": [
+        "JLPT-044"
+      ],
+      "mode": "learn",
+      "steps": [
+        "先按正式题序完成一次，不暂停、不看原文。",
+        "核对答案后再听一次，标记漏听的信息。",
+        "阅读脚本，整理信号词、条件或转折。",
+        "进行一次遮住脚本的复听并记录错因。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 80,
+        "printed": 70
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-135",
+      "phase": "P3-N2 专项",
+      "track": "听力",
+      "module": "新完全 N2 听力｜V 技能",
+      "title": "概要理解：文を関連づけて話の主題をまとめる",
+      "source": "sources/新完全掌握日语能力考试N2级 听力 (（日）中村香织等编著, Zhong cun xiang zhi etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "完成该技能全部练习；严格执行“盲听→核对→脚本→复听”流程。",
+      "prerequisite": [
+        "JLPT-044"
+      ],
+      "mode": "learn",
+      "steps": [
+        "先按正式题序完成一次，不暂停、不看原文。",
+        "核对答案后再听一次，标记漏听的信息。",
+        "阅读脚本，整理信号词、条件或转折。",
+        "进行一次遮住脚本的复听并记录错因。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 86,
+        "printed": 76
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-136",
+      "phase": "P3-N2 专项",
+      "track": "听力",
+      "module": "新完全 N2 听力｜V 技能",
+      "title": "概要理解：表現を手がかりに意見や主張を聞き取る",
+      "source": "sources/新完全掌握日语能力考试N2级 听力 (（日）中村香织等编著, Zhong cun xiang zhi etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "完成该技能全部练习；严格执行“盲听→核对→脚本→复听”流程。",
+      "prerequisite": [
+        "JLPT-044"
+      ],
+      "mode": "learn",
+      "steps": [
+        "先按正式题序完成一次，不暂停、不看原文。",
+        "核对答案后再听一次，标记漏听的信息。",
+        "阅读脚本，整理信号词、条件或转折。",
+        "进行一次遮住脚本的复听并记录错因。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 89,
+        "printed": 79
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-137",
+      "phase": "P3-N2 专项",
+      "track": "听力",
+      "module": "新完全 N2 听力｜V 技能",
+      "title": "概要理解：表現を手がかりに意図を考える",
+      "source": "sources/新完全掌握日语能力考试N2级 听力 (（日）中村香织等编著, Zhong cun xiang zhi etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "完成该技能全部练习；严格执行“盲听→核对→脚本→复听”流程。",
+      "prerequisite": [
+        "JLPT-044"
+      ],
+      "mode": "learn",
+      "steps": [
+        "先按正式题序完成一次，不暂停、不看原文。",
+        "核对答案后再听一次，标记漏听的信息。",
+        "阅读脚本，整理信号词、条件或转折。",
+        "进行一次遮住脚本的复听并记录错因。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 92,
+        "printed": 82
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-138",
+      "phase": "P3-N2 专项",
+      "track": "听力",
+      "module": "新完全 N2 听力｜V 技能",
+      "title": "概要理解：確認問題",
+      "source": "sources/新完全掌握日语能力考试N2级 听力 (（日）中村香织等编著, Zhong cun xiang zhi etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "完成该技能全部练习；严格执行“盲听→核对→脚本→复听”流程。",
+      "prerequisite": [
+        "JLPT-044"
+      ],
+      "mode": "learn",
+      "steps": [
+        "先按正式题序完成一次，不暂停、不看原文。",
+        "核对答案后再听一次，标记漏听的信息。",
+        "阅读脚本，整理信号词、条件或转折。",
+        "进行一次遮住脚本的复听并记录错因。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 94,
+        "printed": 84
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-139",
+      "phase": "P3-N2 专项",
+      "track": "听力",
+      "module": "新完全 N2 听力｜VI 技能",
+      "title": "综合理解：2人以上の話を整理する",
+      "source": "sources/新完全掌握日语能力考试N2级 听力 (（日）中村香织等编著, Zhong cun xiang zhi etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "完成该技能全部练习；严格执行“盲听→核对→脚本→复听”流程。",
+      "prerequisite": [
+        "JLPT-044"
+      ],
+      "mode": "learn",
+      "steps": [
+        "先按正式题序完成一次，不暂停、不看原文。",
+        "核对答案后再听一次，标记漏听的信息。",
+        "阅读脚本，整理信号词、条件或转折。",
+        "进行一次遮住脚本的复听并记录错因。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 96,
+        "printed": 86
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-140",
+      "phase": "P3-N2 专项",
+      "track": "听力",
+      "module": "新完全 N2 听力｜VI 技能",
+      "title": "综合理解：2種類の話を整理する",
+      "source": "sources/新完全掌握日语能力考试N2级 听力 (（日）中村香织等编著, Zhong cun xiang zhi etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "完成该技能全部练习；严格执行“盲听→核对→脚本→复听”流程。",
+      "prerequisite": [
+        "JLPT-044"
+      ],
+      "mode": "learn",
+      "steps": [
+        "先按正式题序完成一次，不暂停、不看原文。",
+        "核对答案后再听一次，标记漏听的信息。",
+        "阅读脚本，整理信号词、条件或转折。",
+        "进行一次遮住脚本的复听并记录错因。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 100,
+        "printed": 90
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-141",
+      "phase": "P3-N2 专项",
+      "track": "听力",
+      "module": "新完全 N2 听力｜VI 技能",
+      "title": "综合理解：確認問題",
+      "source": "sources/新完全掌握日语能力考试N2级 听力 (（日）中村香织等编著, Zhong cun xiang zhi etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "完成该技能全部练习；严格执行“盲听→核对→脚本→复听”流程。",
+      "prerequisite": [
+        "JLPT-044"
+      ],
+      "mode": "learn",
+      "steps": [
+        "先按正式题序完成一次，不暂停、不看原文。",
+        "核对答案后再听一次，标记漏听的信息。",
+        "阅读脚本，整理信号词、条件或转折。",
+        "进行一次遮住脚本的复听并记录错因。"
+      ],
+      "completion_rule": "完成本任务所有步骤；能说明核心用法/技能，并完成对应练习和错题记录。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 104,
+        "printed": 94
+      },
+      "weight": 2
+    },
+    {
+      "id": "JLPT-142",
+      "phase": "P4-冲刺与复盘",
+      "track": "考试训练",
+      "module": "新完全 N2 听力｜模拟试验",
+      "title": "听力模拟试验",
+      "source": "sources/新完全掌握日语能力考试N2级 听力 (（日）中村香织等编著, Zhong cun xiang zhi etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "scope": "一次播放完成；记录每类题型的正确率与可复盘证据。",
+      "prerequisite": [
+        "JLPT-141"
+      ],
+      "mode": "mock",
+      "steps": [
+        "在不看笔记的前提下完成题组或模拟题。",
+        "核对答案并按题型记录错因。",
+        "把错误关联回需要复习的任务；未达标则重新打开该任务。"
+      ],
+      "completion_rule": "完成全部题目，逐题登记错因，并把正确率与复习任务链接保存。",
+      "status": "not_started",
+      "source_page": {
+        "pdf": 106,
+        "printed": 96
+      },
+      "weight": 3
+    }
+  ]
+}
