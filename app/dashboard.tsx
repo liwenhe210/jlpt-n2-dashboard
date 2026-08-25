@@ -22,6 +22,7 @@ type View = 'home' | 'roadmap' | 'tasks' | 'detail' | 'review' | 'data';
 
 const KEY = 'jlpt-n2-dashboard:user-state:v1';
 const HINT_KEY = 'jlpt-n2-dashboard:install-hint-dismissed';
+const memoryStorage = new Map<string, string>();
 const statuses: Record<TaskStatus, [string, string]> = {
   not_started: ['○', '未开始'], in_progress: ['◐', '进行中'], blocked: ['!', '被阻塞'],
   completed: ['✓', '已完成'], skipped: ['↷', '已跳过'],
@@ -32,6 +33,14 @@ const trackMark: Record<string, string> = { 语法: '文', 阅读: '读', 听力
 
 function emptyState(version?: string): UserState {
   return { schema_version: '1.0.0', baseline_version: version, task_progress: {}, settings: { theme: 'system', show_completed: false } };
+}
+function readStored(key: string) {
+  try { return window.localStorage.getItem(key); }
+  catch { return memoryStorage.get(key) || null; }
+}
+function writeStored(key: string, value: string) {
+  try { window.localStorage.setItem(key, value); }
+  catch { memoryStorage.set(key, value); }
 }
 function progress(task: Task, state: UserState): TaskProgress {
   const saved = state.task_progress[task.id];
@@ -87,15 +96,19 @@ export default function Dashboard() {
 
   useEffect(() => {
     try {
-      const stored = window.localStorage.getItem(KEY);
+      const stored = readStored(KEY);
       const parsed = stored ? JSON.parse(stored) as UserState : null;
       setState(parsed?.schema_version === '1.0.0' && parsed.task_progress ? { ...emptyState(), ...parsed, settings: { ...emptyState().settings, ...parsed.settings } } : emptyState());
     } catch { setState(emptyState()); }
-    setHint(window.localStorage.getItem(HINT_KEY) !== '1');
-    fetch('./data/tasks.json').then((res) => {
-      if (!res.ok) throw new Error('任务清单加载失败');
-      return res.json();
-    }).then((data: Baseline) => {
+    setHint(window.location.protocol !== 'file:' && readStored(HINT_KEY) !== '1');
+    const inlineBaseline = (window as Window & { __JLPT_TASKS__?: Baseline }).__JLPT_TASKS__;
+    const baselineRequest: Promise<Baseline> = inlineBaseline
+      ? Promise.resolve(inlineBaseline)
+      : fetch('./data/tasks.json').then((res) => {
+        if (!res.ok) throw new Error('任务清单加载失败');
+        return res.json();
+      });
+    baselineRequest.then((data: Baseline) => {
       const ids = data.tasks.map((task) => task.id);
       if (ids.length !== new Set(ids).size) throw new Error('任务 ID 重复');
       setBaseline(data);
@@ -105,7 +118,7 @@ export default function Dashboard() {
 
   useEffect(() => {
     if (!state) return;
-    window.localStorage.setItem(KEY, JSON.stringify(state));
+    writeStored(KEY, JSON.stringify(state));
     document.documentElement.dataset.theme = state.settings.theme;
   }, [state]);
   useEffect(() => {
@@ -229,7 +242,7 @@ export default function Dashboard() {
     <header className="topbar"><button className="brand" onClick={() => go('home')}><span className="logo">日</span><span><strong>JLPT N2</strong><small>学习 Dashboard</small></span></button><button className="quiet" onClick={() => go('data')}>◎ 数据</button></header>
     {upgrade && <section className="notice"><span><strong>发现新版教材基线</strong><small>学习记录会保留；确认后仅采用新任务版本。</small></span><button onClick={() => { setState({ ...state, baseline_version: baseline.schema_version }); setUpgrade(false); }}>采用新版</button></section>}
     <div className="content">
-      {view === 'home' && <Home tasks={tasks} state={state} all={overall} next={next} tracks={tracks} hint={hint} dismiss={() => { window.localStorage.setItem(HINT_KEY, '1'); setHint(false); }} open={open} go={go} />}
+      {view === 'home' && <Home tasks={tasks} state={state} all={overall} next={next} tracks={tracks} hint={hint} dismiss={() => { writeStored(HINT_KEY, '1'); setHint(false); }} open={open} go={go} />}
       {view === 'roadmap' && <Roadmap tasks={tasks} state={state} phases={phases} open={open} canStart={canStart} />}
       {view === 'tasks' && <Tasks tasks={listed} state={state} phases={phases} tracks={tracks} query={query} phase={phaseFilter} track={trackFilter} status={statusFilter} querySet={setQuery} phaseSet={setPhaseFilter} trackSet={setTrackFilter} statusSet={setStatusFilter} open={open} canStart={canStart} />}
       {view === 'detail' && selected && <Detail task={selected} state={state} byId={byId} unlocked={canStart(selected)} edit={edit} setStatus={setStatus} back={() => go('tasks')} />}
